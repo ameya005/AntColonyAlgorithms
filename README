@@ -1,0 +1,24 @@
+Study and Implementation of Ant Colony Algorithms
+
+This project deals with the implementation of various ant colony algorithms.
+
+Currently 3 variants have been implemented:
+
+1. Simple ACO
+2. Elitist ACO
+3. Rank Based ACO
+
+Files included:
+
+output.py - script for running the three variants and displaying the output.
+readfiles.py - contains scripts for plotting the output for the TSP (requires matplotlib)
+antal.cpp - S-ACO implementation
+antalElitist.cpp- Elitist ACO implementation
+antalRank.cpp - Rank based ACO implementation
+
+Compiled on Ubuntu 12.04 with g++.
+
+Note:
+
+1. You may run either the individual implementations or simply run the output.py script
+2. TSPConstructor creates a 30 city TSP.
