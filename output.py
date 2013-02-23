@@ -14,9 +14,9 @@ def antAlgo():
 
     #t1 = time()
     
-    system('./antal&')
-    system('./antalElitist&')
-    system('./antalRank&')
+    system('./antal')
+    system('./antalElitist')
+    system('./antalRank')
 
     rf.cityReadSACO()
     rf.cityReadElitist()

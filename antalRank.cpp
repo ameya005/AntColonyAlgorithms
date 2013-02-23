@@ -258,7 +258,7 @@ void sortAnts()
     {
         for(j=i+1;j<MAX_CITIES;j++)
         {
-            if(rankAnts[i].tourLength <= rankAnts[j].tourLength)
+            if(rankAnts[i].tourLength >= rankAnts[j].tourLength)
             {
                 tempAnt = rankAnts[i];
                 rankAnts[i] = rankAnts[j];
